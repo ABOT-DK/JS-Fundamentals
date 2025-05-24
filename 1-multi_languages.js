@@ -1,6 +1,6 @@
 let firstStatement = "C is fun"
 let secondStatement = "Python is cool"
-let thirdStatement = "Javascript is amazing"
+let thirdStatement = "JavaScript is amazing"
 
 console.log(firstStatement)
 console.log(secondStatement)
