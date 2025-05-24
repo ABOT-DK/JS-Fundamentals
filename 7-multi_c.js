@@ -1,9 +1,10 @@
-let x = process.argv[2]
+let x = parseInt(process.argv[2])
 
-if(parseInt(x)%1 != 0){
+if(x%1 != 0){
     console.log("Missing number of occurrences")
 } else {
-    for(let i = 0; i < x; i++){
-        console.log("C is fun")
-    }
+    Array(x).fill().forEach(() => {
+        console.log("C is fun");
+    })
 }
+
