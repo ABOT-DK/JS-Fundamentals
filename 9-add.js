@@ -6,7 +6,7 @@ function add(a, b) {
   let int2 = parseInt(process.argv[3]);
   
   if (isNaN(int1) || isNaN(int2)) {
-    console.log("Invalid arguments - please provide two integers");
+    console.log("NaN");
   } else {
     console.log(add(int1, int2));
   }
